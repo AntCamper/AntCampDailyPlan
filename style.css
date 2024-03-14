@@ -1,0 +1,45 @@
+body {
+   background-image: url("b&wclockrepeating.png");
+   background-repeat: repeat;
+}
+
+
+
+.time-block {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.hour {
+    width: 100px;
+    padding: 10px;
+}
+ .hour {
+    width: 100px;
+    padding: 10px;
+    background-color: #f8f6f6;
+ }
+
+ .description {
+    flex-grow: 1;
+    padding: 10px;
+ }
+
+ .past {
+    background-color: #d4d4d4;
+ }
+ .present {
+    background-color: #ff0f02;
+ }
+
+ .future {
+    background-color: #7de97d;
+ }
+
+.save-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
